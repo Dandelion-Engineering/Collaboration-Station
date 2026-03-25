@@ -77,6 +77,8 @@ Every agent follows the same structured sequence at the start of each session:
 
 This sequence is the same regardless of which agent is running, which IDE is being used or what the project is. The framework is tool-agnostic.
 
+**Read AgentPrompt.md for a thorough understanding of the workflow**
+
 
 ### Roles
 
@@ -113,7 +115,7 @@ Each of the agents work through a chat interface in their apps. Direct the agent
 
 The agents will then go through the whole workflow autonomously. As they do so, they will request certain permissions as they work. These are permissions to access files, folders, and other resources on your computer. 
 
-Once they are done, you can do quality control to make sure the workflow was completed correctly (see common failure modes). You can then check the actual work and send messages to them if needed.
+Once they are done, you can do quality control to make sure the workflow was completed correctly (see common failure modes). You can then check the actual work and messages they sent in the chat files (read messages they sent to each other as well as messages they sent to you).
 
 Once each session is done, I would strongly recommend that you do a git push to save your work. This is especially important for being able to fix the common failure modes or any other failures that may occur during the individual sessions. Make sure to set up a git repository for the project before you begin. A good way to track the work is by committing as "[Agent Name] [Session Number]".
 
@@ -137,11 +139,11 @@ I would also like to mention failure modes that used to be common before the lat
 ## Demo Project
 
 The following is a demo project where I ran an AccuSleePy pipeline using Collaboration Station™: 
-https://github.com/Dandelion-Research-Labs/AccuSleePy-Collaboration-Station-Demo
+https://github.com/Dandelion-Engineering/AccuSleePy-Collaboration-Station-Demo
 
 
 ## About
 
-Collaboration Station™ was created by [Randy Crespo](www.linkedin.com/in/randy-crespo), Founder of Dandelion Research Labs.
+Collaboration Station™ was created by [Randy Crespo](www.linkedin.com/in/randy-crespo), Founder of Dandelion Engineering.
 
-If you're interested in applying this framework to a research project, reach out at randy@dandelionresearchlabs.com.
+If you're interested in applying this framework to a research project, reach out at randy@dandelionengineering.com.
