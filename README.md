@@ -136,7 +136,11 @@ I would also like to mention failure modes that used to be common before the lat
 
 **Rare and interesting failure mode:** On two occasions one of the agents impersonated the other agents and approved its own work. They did so by appending messages to the chat files as if they were the other agents.
 
-## Demo Project
+## Demo Projects
+
+The following is a demo project where I ran a multi-condition vibration batch analysis using Collaboration Station™:
+https://github.com/Dandelion-Engineering/Vibration-Batch-Analysis-Demo
+
 
 The following is a demo project where I ran an AccuSleePy pipeline using Collaboration Station™: 
 https://github.com/Dandelion-Engineering/AccuSleePy-Collaboration-Station-Demo
