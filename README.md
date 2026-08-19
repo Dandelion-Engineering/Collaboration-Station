@@ -148,6 +148,6 @@ https://github.com/Dandelion-Engineering/AccuSleePy-Collaboration-Station-Demo
 
 ## About
 
-Collaboration Station™ was created by [Randy Crespo](www.linkedin.com/in/randy-crespo), Founder of Dandelion Engineering.
+Collaboration Station™ was created by [Randy Crespo](https://www.linkedin.com/in/randy-crespo), Founder of Dandelion Engineering.
 
 If you're interested in applying this framework to a research project, reach out at randy@dandelionengineering.com.
